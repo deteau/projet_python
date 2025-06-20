@@ -1,0 +1,242 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+    
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+/*les contenuies du div left*/
+.left{
+    height: 100vh;
+    width: 20%;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color:#49849C;
+    border-radius: 8px;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+
+    
+}
+.design{
+    height: 100px;
+    width: 100px;
+    background-color: #d5d7d8;
+    position: absolute;
+    top: -30px;
+    left: -60px;
+    border-radius: 25px;
+    transform: rotate(50deg);
+}
+
+.leftcare1{
+    height: 120px;
+    width: 80%;
+    background-color:  #acc3dd;
+    justify-content:center;
+    align-items:center;
+    margin-top: 50px;
+    
+
+}
+.leftcare2{
+    height: 35%;
+    width: 80%;
+    margin: 15%;
+    margin-bottom: 50%;
+    background-color:  #49849c;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    margin-bottom: 100px;
+   
+    justify-content: space-between;
+
+}
+.leftsouscare1{
+    height: 70px;
+    width: 100%;
+    background-color:  #acc3dd;
+   
+}
+.leftsouscare2{
+    height: 70px;
+    width: 100%;
+    background-color:  #acc3dd;
+    
+}
+.leftsouscare3{
+    height: 70px;
+    width: 100%;
+   background-color:  #acc3dd;
+    
+}
+.leftcare3{
+    height: 70px;
+    width: 80%;
+   background-color:  #acc3dd;
+    justify-content:center;
+    align-items:center;
+   
+    
+
+}
+
+/*les contenuies du div right*/
+.right{
+    height: 100%;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.rightcare1{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+   
+
+  
+}
+.rightsouscareBS{
+     width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+   
+}
+
+input{
+    width: 90%;
+    height: 60%;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 20px;
+    
+}
+.le_rond{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: gray;
+    border: 1px solid #49849c;
+    
+}
+.rightcare2{
+    height: 50%;
+    width: 90%;
+    justify-content:center;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+.rightsouscare1{
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.rightsous1care1{
+    width: 280px;
+    height: 100%;
+    
+    -webkit-box-shadow:0px 5px 42px rgba(0,0,0,0.62);
+     box-shadow: 0px 5px 42px 5px rgba(0,0,0,0.62);
+
+}
+.rightsous2care1{
+    height: 100%;
+    width: 280px;
+
+-webkit-box-shadow:0px 5px 42px rgba(0,0,0,0.62);
+box-shadow: 0px 5px 42px 5px rgba(0,0,0,0.62);
+}
+.rightsous3care1{
+    height: 100%;
+    width: 280px;
+    
+    -webkit-box-shadow:0px 5px 42px rgba(0,0,0,0.62);
+     box-shadow: 0px 5px 42px 5px rgba(0,0,0,0.62);
+
+}
+.rightsouscare2{
+    width: 100%;
+    height: 60%;
+    display: flex; 
+    align-items: center; 
+  
+    justify-content: space-between;
+}
+.rightsous1care2{
+    height: 100%;
+    width: 630px;
+    border: 1px blue solid;
+    -webkit-box-shadow:0px 5px 42px rgba(0,0,0,0.62);
+     box-shadow: 0px 5px 42px 5px rgba(0,0,0,0.62);
+
+
+}
+.rightsous2care2{
+    height: 100%;
+    width: 280px;
+    border: 1px blue solid;
+    -webkit-box-shadow:0px 5px 42px rgba(0,0,0,0.62);
+     box-shadow: 0px 5px 42px 5px rgba(0,0,0,0.62);
+
+   
+}
+
+.rightcare3{
+    height: 30%;
+    width: 90%;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.tables{
+    height: 100%;
+    width: 100%;
+}
+table{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+th{
+    height: 40px;
+}
+tr{
+    height: 30px;
+}
+.grey-color{
+    background-color: grey;
+}
